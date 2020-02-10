@@ -4,17 +4,6 @@ import '@testing-library/jest-dom/extend-expect';
 
 import HeaderNavigation from '../components/HeaderNavigation';
 
-jest.mock('next/router', () => ({
-  useRouter() {
-    return {
-      route: '/',
-      pathname: '',
-      query: '',
-      asPath: '',
-    };
-  },
-}));
-
 it('renders without error', () => {
   const component = () => render(<HeaderNavigation links={[]} />);
 
