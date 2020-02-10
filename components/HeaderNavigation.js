@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const HeaderNavigation = ({ links }) => {
   const content = () => {
-    if (links && links.length > 0) {
+    if (links.length > 0) {
       return (
         <div data-testid="navigation">
           <ul>
