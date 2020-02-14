@@ -1,2 +1,6 @@
-@import "_vendor.css";
-@import "overrides/_loader.css";
+@import "00_base/_loader.css";
+@import "01_atom/_loader.css";
+@import "02_molecule/_loader.css";
+@import "03_organism/_loader.css";
+@import "04_template/_loader.css";
+@import "05_page/_loader.css";
