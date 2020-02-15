@@ -1,7 +1,6 @@
-import '../styles/stylesheet.css';
-
 import React from 'react';
 
+import '../styles/stylesheet.css';
 import Layout from '../components/Layout';
 
 // eslint-disable-next-line react/prop-types

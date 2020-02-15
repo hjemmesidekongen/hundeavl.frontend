@@ -1,17 +1,31 @@
 import React from 'react';
+import NProgress from 'nprogress';
+import Router from 'next/router';
 
+import Meta from './Meta';
 import Header from './Header';
 import Footer from './Footer';
 
+Router.onRouteChangeStart = () => {
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+};
+Router.onRouteChangeError = () => {
+  NProgress.done();
+};
+
 // eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => (
-  <div>
+  <>
+    <Meta />
     <Header />
 
     {children}
 
     <Footer />
-  </div>
+  </>
 );
 
 export default Layout;
