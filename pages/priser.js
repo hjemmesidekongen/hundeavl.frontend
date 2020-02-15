@@ -1,10 +1,9 @@
 import React from 'react';
-
 import Content from '../components/Content';
 
 const HomePage = () => (
-  <Content heading="Velkommen til Hundeavl.dk">
-    <p>Indhold</p>
+  <Content heading="Priser">
+    <p>Priser herinde...</p>
   </Content>
 );
 

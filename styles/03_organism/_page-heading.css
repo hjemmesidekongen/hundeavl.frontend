@@ -1,5 +1,5 @@
 /* |----------------------------------------------------------- */
-/* | Header navigation. */
+/* | Page heading. */
 /* |----------------------------------------------------------- */
 
 /* |-------------------------------------------------- */
@@ -10,33 +10,18 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.header-navigation {
-    margin: 0;
-    padding: 0;
+.page-heading {
+    padding: 18px 0;
 
-    text-align: center;
-    list-style: none;
+    color: #fff;
+    background-color: var(--color--secondary);
 
-    li {
-        display: inline-block;
-        
-        padding: 0;
-    }
+    h1, h2, h3 {
+        margin: 0;
 
-    a {
-        display: block;
-
-        padding: 13px 25px;
-
-        text-decoration: none;
-
+        font-weight: normal;
+        font-size: var(--heading--h5__font-size);
         color: #fff;
-
-        transition: background-color ease-in-out var(--transition__time);
-
-        &:hover {
-            background-color: var(--color--primary--light);
-        }
     }
 }
 
