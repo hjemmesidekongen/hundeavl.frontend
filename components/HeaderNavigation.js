@@ -6,8 +6,8 @@ const HeaderNavigation = ({ links }) => {
   const content = () => {
     if (links.length > 0) {
       return (
-        <div data-testid="navigation">
-          <ul>
+        <nav data-testid="navigation">
+          <ul className="header-navigation">
             {links.map(link => (
               <li key={link.path}>
                 <Link href={link.path}>
@@ -16,7 +16,7 @@ const HeaderNavigation = ({ links }) => {
               </li>
             ))}
           </ul>
-        </div>
+        </nav>
       );
     }
 

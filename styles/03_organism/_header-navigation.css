@@ -1,0 +1,84 @@
+/* |----------------------------------------------------------- */
+/* | Header navigation. */
+/* |----------------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Variables. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Styling. */
+/* |-------------------------------------------------- */
+
+.header-navigation {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        
+        padding: 0;
+    }
+
+    a {
+        display: block;
+
+        padding: 13px 25px;
+
+        text-transform: uppercase;
+        text-decoration: none;
+
+        color: #fff;
+
+        &:hover {
+            background-color: var(--color--primary--light);
+        }
+    }
+}
+
+/* |-------------------------------------------------- */
+/* | Variants. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Responsive. */
+/* |-------------------------------------------------- */
+
+/* Mobile - and up. */
+@media (--viewport--xs__min) {}
+
+/* Mobile - only. */
+@media (--viewport--xs__only) {}
+
+/* Tablet - and up. */
+@media (--viewport--sm__min) {}
+
+/* Tablet - only. */
+@media (--viewport--sm__only) {}
+
+/* Desktop - and up. */
+@media (--viewport--md__min) {}
+
+/* Desktop - only. */
+@media (--viewport--md__only) {}
+
+/* Large desktop - and up. */
+@media (--viewport--lg__min) {}
+
+/* Large desktop - only. */
+@media (--viewport--lg__only) {}
+
+/* X Large desktop - and up. */
+@media (--viewport--xl__min) {}
+
+/* Print. */
+@media print {}
+
+/* Touch. */
+.touchevents {}
+
+/* No touch. */
+.no-touchevents {}
