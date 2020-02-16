@@ -13,17 +13,17 @@ const Footer = () => (
       <div className="footer__row footer__row--top">
         <div className="container">
           <div className="row">
-            <div className="col col-sm-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Navigation</h3>
               <FooterNavigation links={secondaryLinks} />
             </div>
-            <div className="col col-sm-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Seneste nyheder</h3>
             </div>
-            <div className="col col-sm-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Tilmeld nyhedsbrev</h3>
             </div>
-            <div className="col col-sm-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Om hundeavl.dk</h3>
 
               <p>
