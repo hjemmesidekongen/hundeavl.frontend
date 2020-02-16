@@ -20,11 +20,17 @@ Router.onRouteChangeError = () => {
 const Layout = ({ children }) => (
   <>
     <Meta />
-    <Header />
+    <div className="layout__wrapper">
+      <div className="layout__header">
+        <Header />
+      </div>
 
-    {children}
+      <div className="layout__content">{children}</div>
 
-    <Footer />
+      <div className="layout__footer">
+        <Footer />
+      </div>
+    </div>
   </>
 );
 
