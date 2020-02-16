@@ -38,7 +38,7 @@
         .svg-inline--fa {
             margin-right: 5px;
 
-            color: var(--color--tertiary);
+            color: var(--color--default);
 
             transition: color ease-in-out var(--transition__time);
         }

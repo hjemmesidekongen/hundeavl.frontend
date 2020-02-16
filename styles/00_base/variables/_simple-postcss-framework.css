@@ -10,6 +10,11 @@
  */
 :root {
 
+    /* Border. */
+    --border__color: #f5f5f5;
+    --border--light__color: color(var(--border__color) tint(10%));
+    --border--dark__color: color(var(--border__color) shade(10%));
+
     /* Background. */
     --body-bg--primary__color: #f5f5f5;
     --body-bg--secondary__color: #fff;
@@ -22,6 +27,8 @@
     --link--hover__text-color: color(var(--link__text-color) shade(10%));
 
     /* Brand. */
+    --color--default: #d9d9d9;
+
     --color--primary: #4FB6ED;
     --color--primary__light: #40cbf8;
     --color--primary__dark: #2d3e52;
@@ -30,8 +37,8 @@
     --color--secondary__light: color(var(--color--secondary) tint(10%));
     --color--secondary__dark: color(var(--color--secondary) shade(10%));
 
-    --color--tertiary: #d9d9d9;
-    --color--tertiary__light: color(var(--color--tertiary) tint(10%));
+    --color--tertiary: #7db921;
+    --color--tertiary__light: #98ce44;
     --color--tertiary__dark: color(var(--color--tertiary) shade(10%));
 }
 
