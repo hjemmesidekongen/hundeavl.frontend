@@ -10,10 +10,15 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.footer {
-    padding: 20px 0;
-    
+.footer {}
+.footer__row {}
+.footer__row--top {
+    padding: 50px 0;
+
     background-color: var(--body-bg--secondary__color);
+}
+.footer__row--bottom {
+    padding: 20px 0;
 }
 
 /* |-------------------------------------------------- */
@@ -37,7 +42,12 @@
 @media (--viewport--sm__only) {}
 
 /* Desktop - and up. */
-@media (--viewport--md__min) {}
+@media (--viewport--md__min) {
+
+    .footer__row--top {
+        padding: 80px 0;
+    }
+}
 
 /* Desktop - only. */
 @media (--viewport--md__only) {}
