@@ -18,3 +18,10 @@
     --color--primary: #4FB6ED;
     --color--secondary: #2d3e52;
 }
+
+/*
+ * Grid.
+ */
+:root {
+    --gutter-width: 40px;
+}

@@ -4,7 +4,12 @@ import Content from '../components/Content';
 const Annoncer = () => (
   <Content heading="Annoncer">
     <div className="container">
-      <p>Liste over annoncer</p>
+      <div className="box">
+        <div className="box__heading"></div>
+        <div className="box__content">
+          <p>Liste over annoncer</p>
+        </div>
+      </div>
     </div>
   </Content>
 );

@@ -1,5 +1,5 @@
 /* |----------------------------------------------------------- */
-/* | Page. */
+/* | Box. */
 /* |----------------------------------------------------------- */
 
 /* |-------------------------------------------------- */
@@ -10,24 +10,15 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.page__heading {
-    padding: 18px 0;
+.box {
+    padding: calc(var(--gutter-width) / 2);
 
-    color: #fff;
-    background-color: var(--color--secondary);
-
-    h1, h2, h3 {
-        margin: 0;
-
-        font-weight: normal;
-        font-size: var(--heading--h5__font-size);
-        color: #fff;
-    }
+    background-color: var(--body-bg--secondary__color);
 }
 
-.page__content {
-    padding: var(--gutter-width) 0;
-}
+.box__heading {}
+
+.box__content {}
 
 /* |-------------------------------------------------- */
 /* | Variants. */
