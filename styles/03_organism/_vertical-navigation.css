@@ -1,0 +1,97 @@
+/* |----------------------------------------------------------- */
+/* | Vertical navigation. */
+/* |----------------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Variables. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Styling. */
+/* |-------------------------------------------------- */
+
+.vertical-navigation {
+    padding-left: 0;
+
+    list-style: none;
+
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        a {
+            text-decoration: none;
+
+            color: var(--text-color);
+
+            &:hover {
+                text-decoration: underline;
+
+                color: var(--link--hover__text-color);
+
+                .svg-inline--fa {
+                    color: var(--color--secondary);
+                }
+            }
+        }
+
+        .svg-inline--fa {
+            margin-right: 5px;
+
+            color: var(--color--tertiary);
+
+            transition: color ease-in-out var(--transition__time);
+        }
+
+        &:first-child {
+            padding-top: 0;
+        }
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+/* |-------------------------------------------------- */
+/* | Variants. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Responsive. */
+/* |-------------------------------------------------- */
+
+/* Mobile - and up. */
+@media (--viewport--xs__min) {}
+
+/* Mobile - only. */
+@media (--viewport--xs__only) {}
+
+/* Tablet - and up. */
+@media (--viewport--sm__min) {}
+
+/* Tablet - only. */
+@media (--viewport--sm__only) {}
+
+/* Desktop - and up. */
+@media (--viewport--md__min) {}
+
+/* Desktop - only. */
+@media (--viewport--md__only) {}
+
+/* Large desktop - and up. */
+@media (--viewport--lg__min) {}
+
+/* Large desktop - only. */
+@media (--viewport--lg__only) {}
+
+/* X Large desktop - and up. */
+@media (--viewport--xl__min) {}
+
+/* Print. */
+@media print {}
+
+/* Touch. */
+.touchevents {}
+
+/* No touch. */
+.no-touchevents {}
