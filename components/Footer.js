@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { Tooltip } from 'react-tippy';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -34,27 +35,42 @@ const Footer = () => (
                 <a href="mailto: support@hundeavl.dk">support@hundeavl.dk</a>
               </p>
 
-              <div className="social-icon-list">
-                <a
-                  href="https://facebook.com/hundeavl.dk#"
-                  className="social-icon social-icon--facebook"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Besøg os på facebook"
-                >
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-
-                <a
-                  href="https://instagram.com/hundeavl.dk#"
-                  className="social-icon social-icon--instagram"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Besøg os på Instagram"
-                >
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
+              <ul className="list--inline">
+                <li>
+                  <Tooltip
+                    title="Besøg os på facebook"
+                    size="small"
+                    animation="shift"
+                    animateFill={false}
+                  >
+                    <a
+                      href="https://facebook.com/hundeavl.dk#"
+                      className="social-icon social-icon--facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faFacebookF} />
+                    </a>
+                  </Tooltip>
+                </li>
+                <li>
+                  <Tooltip
+                    title="Besøg os på Instagram"
+                    size="small"
+                    animation="shift"
+                    animateFill={false}
+                  >
+                    <a
+                      href="https://instagram.com/hundeavl.dk#"
+                      className="social-icon social-icon--instagram"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                  </Tooltip>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

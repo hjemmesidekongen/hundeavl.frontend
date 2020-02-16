@@ -1,5 +1,5 @@
 /* |----------------------------------------------------------- */
-/* | Layout. */
+/* | List. */
 /* |----------------------------------------------------------- */
 
 /* |-------------------------------------------------- */
@@ -10,27 +10,18 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-#__next {
-    min-height: 100vh;
-}
+.list--inline {
+    padding-left: 0;
 
-.layout__wrapper {
-	display: flex;
+    list-style: none;
 
-	min-height: 100vh;
-	flex-direction: column;
-}
+    > li {
+        display: inline-block;
 
-.layout__header {
-    flex-shrink: 0;
-}
-
-.layout__content {
-    flex-grow: 1;
-}
-
-.layout__footer {
-    flex-shrink: 0;
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
 }
 
 /* |-------------------------------------------------- */
