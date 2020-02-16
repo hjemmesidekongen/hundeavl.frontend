@@ -21,7 +21,11 @@ const Footer = () => (
               <h3 className="heading--h5">Seneste nyheder</h3>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
-              <h3 className="heading--h5">Tilmeld nyhedsbrev</h3>
+              <h3 className="heading--h5">Nyhedsbrev</h3>
+              <p>
+                Tilmeld dig til vores nyhedsbrev for at modtage spændende
+                opdateringer.
+              </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Om hundeavl.dk</h3>
