@@ -4,7 +4,9 @@ import Content from '../components/Content';
 
 const HomePage = () => (
   <Content heading="Velkommen til Hundeavl.dk">
-    <p>Indhold</p>
+    <div className="container">
+      <p>Indhold</p>
+    </div>
   </Content>
 );
 

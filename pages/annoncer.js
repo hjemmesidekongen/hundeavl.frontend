@@ -3,7 +3,9 @@ import Content from '../components/Content';
 
 const Annoncer = () => (
   <Content heading="Annoncer">
-    <p>Liste over annoncer</p>
+    <div className="container">
+      <p>Liste over annoncer</p>
+    </div>
   </Content>
 );
 
