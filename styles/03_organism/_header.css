@@ -37,7 +37,7 @@
         text-align: center;
     }
     .header__row + .header__row {
-        border-top: 1px solid var(--color--primary--light);
+        border-top: 1px solid var(--color--primary__light);
     }
     .header__row--bottom {}
 }

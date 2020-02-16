@@ -23,8 +23,16 @@
 
     /* Brand. */
     --color--primary: #4FB6ED;
-    --color--secondary: #2d3e52;
+    --color--primary__light: #40cbf8;
+    --color--primary__dark: #2d3e52;
+
+    --color--secondary: #F3B945;
+    --color--secondary__light: color(var(--color--secondary) tint(10%));
+    --color--secondary__dark: color(var(--color--secondary) shade(10%));
+
     --color--tertiary: #d9d9d9;
+    --color--tertiary__light: color(var(--color--tertiary) tint(10%));
+    --color--tertiary__dark: color(var(--color--tertiary) shade(10%));
 }
 
 /*

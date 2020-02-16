@@ -34,8 +34,9 @@
 
         transition: background-color ease-in-out var(--transition__time);
 
+        &.active,
         &:hover {
-            background-color: var(--color--primary--light);
+            background-color: var(--color--primary__light);
         }
     }
 }

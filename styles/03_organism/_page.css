@@ -14,7 +14,7 @@
     padding: 18px 0;
 
     color: #fff;
-    background-color: var(--color--secondary);
+    background-color: var(--color--primary__dark);
 
     h1, h2, h3 {
         margin: 0;
