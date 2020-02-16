@@ -1,0 +1,74 @@
+/* |----------------------------------------------------------- */
+/* | Page. */
+/* |----------------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Variables. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Styling. */
+/* |-------------------------------------------------- */
+
+.page__heading {
+    padding: 18px 0;
+
+    color: #fff;
+    background-color: var(--color--secondary);
+
+    h1, h2, h3 {
+        margin: 0;
+
+        font-weight: normal;
+        font-size: var(--heading--h5__font-size);
+        color: #fff;
+    }
+}
+
+.page__content {
+    padding: 30px 0;
+}
+
+/* |-------------------------------------------------- */
+/* | Variants. */
+/* |-------------------------------------------------- */
+
+/* |-------------------------------------------------- */
+/* | Responsive. */
+/* |-------------------------------------------------- */
+
+/* Mobile - and up. */
+@media (--viewport--xs__min) {}
+
+/* Mobile - only. */
+@media (--viewport--xs__only) {}
+
+/* Tablet - and up. */
+@media (--viewport--sm__min) {}
+
+/* Tablet - only. */
+@media (--viewport--sm__only) {}
+
+/* Desktop - and up. */
+@media (--viewport--md__min) {}
+
+/* Desktop - only. */
+@media (--viewport--md__only) {}
+
+/* Large desktop - and up. */
+@media (--viewport--lg__min) {}
+
+/* Large desktop - only. */
+@media (--viewport--lg__only) {}
+
+/* X Large desktop - and up. */
+@media (--viewport--xl__min) {}
+
+/* Print. */
+@media print {}
+
+/* Touch. */
+.touchevents {}
+
+/* No touch. */
+.no-touchevents {}

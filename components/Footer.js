@@ -4,9 +4,13 @@ import FooterNavigation from './FooterNavigation';
 import { secondaryLinks } from '../globals/navigation';
 
 const Footer = () => (
-  <div>
-    <FooterNavigation links={secondaryLinks} />
-  </div>
+  <footer>
+    <div className="footer">
+      <div className="container">
+        <FooterNavigation links={secondaryLinks} />
+      </div>
+    </div>
+  </footer>
 );
 
 export default Footer;

@@ -1,5 +1,5 @@
 /* |----------------------------------------------------------- */
-/* | Page heading. */
+/* | Footer. */
 /* |----------------------------------------------------------- */
 
 /* |-------------------------------------------------- */
@@ -10,19 +10,10 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.page-heading {
-    padding: 18px 0;
-
-    color: #fff;
-    background-color: var(--color--secondary);
-
-    h1, h2, h3 {
-        margin: 0;
-
-        font-weight: normal;
-        font-size: var(--heading--h5__font-size);
-        color: #fff;
-    }
+.footer {
+    padding: 20px 0;
+    
+    background-color: var(--body-bg--secondary__color);
 }
 
 /* |-------------------------------------------------- */
