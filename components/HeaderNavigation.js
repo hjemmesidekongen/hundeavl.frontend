@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
+
+import ActiveLink from './ActiveLink';
 
 const HeaderNavigation = ({ links }) => {
   const content = () => {
@@ -10,9 +11,9 @@ const HeaderNavigation = ({ links }) => {
           <ul className="header-navigation">
             {links.map(link => (
               <li key={link.path}>
-                <Link href={link.path}>
+                <ActiveLink activeClassName="active" href={link.path}>
                   <a data-testid="link">{link.title}</a>
-                </Link>
+                </ActiveLink>
               </li>
             ))}
           </ul>
