@@ -4,7 +4,7 @@ import FooterNavigation from './FooterNavigation';
 import { secondaryLinks } from '../globals/navigation';
 
 const Footer = () => (
-  <footer>
+  <footer className="layout__footer">
     <div className="footer">
       <div className="container">
         <FooterNavigation links={secondaryLinks} />

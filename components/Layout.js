@@ -21,15 +21,11 @@ const Layout = ({ children }) => (
   <>
     <Meta />
     <div className="layout__wrapper">
-      <div className="layout__header">
-        <Header />
-      </div>
+      <Header />
 
       <div className="layout__content">{children}</div>
 
-      <div className="layout__footer">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   </>
 );
