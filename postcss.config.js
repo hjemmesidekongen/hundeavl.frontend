@@ -27,6 +27,5 @@ module.exports = {
         preserve: false,
       },
     ],
-    ...(process.env.NODE_ENV === 'production' ? [purgecss] : []),
   ],
 };
