@@ -48,7 +48,7 @@ const Footer = () => (
                     animateFill={false}
                   >
                     <a
-                      href="https://facebook.com/hundeavl.dk#"
+                      href="https://facebook.com/hundeavl.dk/"
                       className="social-icon social-icon--facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const Footer = () => (
                     animateFill={false}
                   >
                     <a
-                      href="https://instagram.com/hundeavl.dk#"
+                      href="https://www.instagram.com/hundeavl.dk/"
                       className="social-icon social-icon--instagram"
                       target="_blank"
                       rel="noopener noreferrer"
