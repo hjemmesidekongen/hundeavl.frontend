@@ -16,6 +16,7 @@ const Content = ({ heading, children }) => (
 
 Content.propTypes = {
   heading: PropTypes.string,
+  children: PropTypes.node.isRequired,
 };
 
 export default Content;
