@@ -5,10 +5,9 @@ import { useRouter } from 'next/router';
 
 const ActiveLink = ({ href, activeClassName, children }) => {
   const router = useRouter();
-
   const child = React.Children.only(children);
-
   let className = child.props.className || '';
+
   if (router && router.pathname === href && activeClassName) {
     className = `${className} ${activeClassName}`.trim();
   }
@@ -21,6 +20,7 @@ ActiveLink.propTypes = {
   activeClassName: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
+
 ActiveLink.defaultProps = {
   href: '',
   activeClassName: '',
