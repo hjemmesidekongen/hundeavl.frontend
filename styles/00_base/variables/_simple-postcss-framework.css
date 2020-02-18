@@ -44,9 +44,18 @@
     --color--tertiary__dark: color(var(--color--tertiary) shade(10%));
 }
 
+/**
+ * Border.
+ */
+:root {
+    --border--base__radius: 0;
+    --border--small__radius: 0;
+    --border--large__radius: 0;
+}
+
 /*
  * Grid.
  */
 :root {
-    --gutter-width: 40px;
+    --gutter-width: 2.5rem;
 }

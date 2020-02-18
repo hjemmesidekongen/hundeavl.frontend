@@ -1,8 +1,7 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import { ArrowRight } from '@material-ui/icons';
 
 const FooterNavigation = ({ links }) => {
   const content = () => {
@@ -13,7 +12,7 @@ const FooterNavigation = ({ links }) => {
             <li key={link.path}>
               <Link href={link.path}>
                 <a data-testid="link">
-                  <FontAwesomeIcon icon={faCaretRight} />
+                  <ArrowRight />
 
                   {link.title}
                 </a>
