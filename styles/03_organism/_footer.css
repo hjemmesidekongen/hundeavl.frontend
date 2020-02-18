@@ -10,7 +10,17 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.footer {}
+.footer {
+
+    hr {
+        margin: calc(var(--gutter-width) / 2) 0;
+
+        height: 1px;
+        border: 0;
+
+        background-color: var(--border__color);
+    }
+}
 .footer__row {}
 .footer__row--top {
     padding: 50px 0;
