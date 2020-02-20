@@ -10,8 +10,8 @@ const Header = () => (
       <div className="header__row header__row--top">
         <div className="container">
           <Link href="/">
-            <a>
-              <img src="/images/logo2.png" alt="Logo" />
+            <a className="header__logo">
+              <img src="/images/logo--header.svg" alt="Logo" />
             </a>
           </Link>
         </div>

@@ -29,14 +29,16 @@
 
                 color: var(--link--hover__text-color);
 
-                .svg-inline--fa {
+                svg {
                     color: var(--color--secondary);
                 }
             }
         }
 
-        .svg-inline--fa {
-            margin-right: 5px;
+        svg {
+            float: left;
+
+            margin-right: 2px;
 
             color: var(--color--default);
 

@@ -1,0 +1,35 @@
+import React from 'react';
+import { useFormik } from 'formik';
+import { Check } from '@material-ui/icons';
+
+const NewsletterSignupForm = () => {
+  const formik = useFormik({
+    initialValues: {
+      email: '',
+    },
+    onSubmit: values => {
+      console.log(JSON.stringify(values, null, 2));
+    },
+  });
+
+  return (
+    <form onSubmit={formik.handleSubmit}>
+      <div className="form-item">
+        <label htmlFor="email">E-mail adresse</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          onChange={formik.handleChange}
+          value={formik.values.email}
+        />
+      </div>
+
+      <button type="submit" className="button button--tertiary">
+        <Check />
+      </button>
+    </form>
+  );
+};
+
+export default NewsletterSignupForm;

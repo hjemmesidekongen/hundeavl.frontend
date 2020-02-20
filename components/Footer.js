@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Tooltip from '@material-ui/core/Tooltip';
 import { Facebook, Instagram } from '@material-ui/icons';
 
-import NewsletterSignup from './NewsletterSignup';
+import NewsletterSignupForm from './NewsletterSignupForm';
 import FooterNavigation from './FooterNavigation';
 import { secondaryLinks } from '../globals/navigation';
 
@@ -27,7 +27,7 @@ const Footer = () => (
                 opdateringer.
               </p>
               <hr />
-              <NewsletterSignup />
+              <NewsletterSignupForm />
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
               <h3 className="heading--h5">Om hundeavl.dk</h3>
@@ -74,8 +74,8 @@ const Footer = () => (
       <div className="footer__row footer__row--bottom">
         <div className="container">
           <Link href="/">
-            <a>
-              <img src="/images/logo.png" alt="Logo" />
+            <a className="footer__logo">
+              <img src="/images/logo--footer.svg" alt="Logo" />
             </a>
           </Link>
         </div>

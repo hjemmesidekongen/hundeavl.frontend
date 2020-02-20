@@ -1,5 +1,5 @@
 /* |----------------------------------------------------------- */
-/* | Footer. */
+/* | Form item. */
 /* |----------------------------------------------------------- */
 
 /* |-------------------------------------------------- */
@@ -10,41 +10,57 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
-.footer {
+.form-item {
 
-    hr {
-        margin: calc(var(--gutter-width) / 2) 0;
+    label {
+        display: block;
 
-        height: 1px;
-        border: 0;
+        margin-bottom: 5px;
 
-        background-color: var(--border__color);
+        text-transform: uppercase;
+        font-size: var(--base--small__font-size);
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: var(--spacing--base__y) var(--spacing--base__x);
+
+        border: 1px solid var(--body-bg--primary__color);
+        background-color: var(--body-bg--primary__color);
+
+        transition: all var(--transition__time) ease-in-out;
+
+        &:focus {
+            outline: 0;
+            border-color: var(--color--primary);
+        }
+
+        &::placeholder {
+            color: color(var(--text-color) tint(30%));
+        }
     }
 }
-.footer__row {}
-.footer__row--top {
-    padding: 50px 0;
 
-    background-color: var(--body-bg--secondary__color);
+.form-items-inline {
+    display: flex;
+    
+    align-items: flex-end;
 
-    h1, h2, h3, h4, h5, h6 {
-        margin-top: 0;
-    }
-}
-.footer__row--bottom {
-    padding: 20px 0;
-}
-
-.footer__logo {
-
-    img {
-        height: 30px;
+    .form-item {
+        flex-grow: 1;
     }
 }
 
 /* |-------------------------------------------------- */
 /* | Variants. */
 /* |-------------------------------------------------- */
+
+.form-item--text {}
+.form-item--textarea {}
 
 /* |-------------------------------------------------- */
 /* | Responsive. */
@@ -63,12 +79,7 @@
 @media (--viewport--sm__only) {}
 
 /* Desktop - and up. */
-@media (--viewport--md__min) {
-
-    .footer__row--top {
-        padding: 80px 0;
-    }
-}
+@media (--viewport--md__min) {}
 
 /* Desktop - only. */
 @media (--viewport--md__only) {}

@@ -1,6 +1,8 @@
 export const primaryLinks = [
   { title: 'Startside', path: '/' },
   { title: 'Annoncer', path: '/annoncer' },
+  { title: 'Opret konto', path: '/konto/opret' },
+  { title: 'Guides & gode råd', path: '/gode-raad' },
 ];
 
 export const secondaryLinks = [
