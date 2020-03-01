@@ -10,6 +10,7 @@
 /* | Styling. */
 /* |-------------------------------------------------- */
 
+
 .vertical-navigation {
     padding-left: 0;
 
@@ -29,16 +30,14 @@
 
                 color: var(--link--hover__text-color);
 
-                svg {
+                .svg-inline--fa {
                     color: var(--color--secondary);
                 }
             }
         }
 
-        svg {
-            float: left;
-
-            margin-right: 2px;
+        .svg-inline--fa {
+            margin-right: 5px;
 
             color: var(--color--default);
 
