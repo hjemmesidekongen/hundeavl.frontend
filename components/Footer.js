@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import Tooltip from '@material-ui/core/Tooltip';
-import { Facebook, Instagram } from '@material-ui/icons';
+import { Tooltip } from 'react-tippy';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import NewsletterSignupForm from './NewsletterSignupForm';
 import FooterNavigation from './FooterNavigation';
@@ -43,26 +44,36 @@ const Footer = () => (
 
               <ul className="list--inline">
                 <li>
-                  <Tooltip title="Besøg os på facebook" placement="top" arrow>
+                  <Tooltip
+                    title="Besøg os på facebook"
+                    size="small"
+                    animation="shift"
+                    animateFill={false}
+                  >
                     <a
                       href="https://facebook.com/hundeavl.dk/"
                       className="social-icon social-icon--facebook"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Facebook />
+                      <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                   </Tooltip>
                 </li>
                 <li>
-                  <Tooltip title="Besøg os på Instagram" placement="top" arrow>
+                  <Tooltip
+                    title="Besøg os på Instagram"
+                    size="small"
+                    animation="shift"
+                    animateFill={false}
+                  >
                     <a
                       href="https://www.instagram.com/hundeavl.dk/"
                       className="social-icon social-icon--instagram"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Instagram />
+                      <FontAwesomeIcon icon={faInstagram} />
                     </a>
                   </Tooltip>
                 </li>

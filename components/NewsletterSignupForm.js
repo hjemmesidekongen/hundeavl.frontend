@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
-import { Check } from '@material-ui/icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const NewsletterSignupForm = () => {
   const formik = useFormik({
@@ -26,7 +27,7 @@ const NewsletterSignupForm = () => {
       </div>
 
       <button type="submit" className="button button--tertiary">
-        <Check />
+        <FontAwesomeIcon icon={faCheck} />
       </button>
     </form>
   );
