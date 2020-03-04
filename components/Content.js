@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Content = ({ heading, children }) => (
-  <>
+  <main>
     {heading && heading !== '' && (
       <div className="page__heading" data-testid="page-heading">
         <div className="container">
@@ -11,7 +11,7 @@ const Content = ({ heading, children }) => (
       </div>
     )}
     <div className="page__content">{children}</div>
-  </>
+  </main>
 );
 
 Content.propTypes = {

@@ -9,15 +9,15 @@ const HomePage = () => (
         <div className="box__content">
           <div className="row">
             <div className="col-md-6">
-              <div className="form-item">
+              <div className="form-group">
                 <label htmlFor="firstName">Fornavn</label>
-                <input type="text" id="firstName" />
+                <input type="text" id="firstName" className="form-input" />
               </div>
             </div>
             <div className="col-md-6">
-              <div className="form-item">
+              <div className="form-group">
                 <label htmlFor="lastName">Efternavn</label>
-                <input type="text" id="lastName" />
+                <input type="text" id="lastName" className="form-input" />
               </div>
             </div>
           </div>

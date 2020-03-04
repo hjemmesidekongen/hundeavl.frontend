@@ -15,12 +15,13 @@ const NewsletterSignupForm = () => {
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <div className="form-item">
+      <div className="form-group">
         <label htmlFor="email">E-mail adresse</label>
         <input
           id="email"
           name="email"
           type="email"
+          className="form-input"
           onChange={formik.handleChange}
           value={formik.values.email}
         />

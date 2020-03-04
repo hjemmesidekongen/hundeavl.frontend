@@ -42,6 +42,10 @@
     --color--tertiary: #7db921;
     --color--tertiary__light: #98ce44;
     --color--tertiary__dark: color(var(--color--tertiary) shade(10%));
+    
+    /* State. */
+    --state--light__color: var(--body-bg--primary__color);
+    --state--light__border-color: var(--body-bg--primary__color);
 }
 
 /**

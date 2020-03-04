@@ -1,5 +1,5 @@
-import 'react-tippy/dist/tippy.css';
 import '../styles/stylesheet.css';
+import 'react-tippy/dist/tippy.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 import React from 'react';
