@@ -1,14 +1,14 @@
-@import "_vendor.css";
-@import "variables/_loader.css";
+@import "vendor.css";
+@import "variables/loader.css";
 
-@import "_layout.css";
+@import "layout.css";
 
-@import "_header.css";
-@import "_header-navigation.css";
-@import "_page.css";
-@import "_footer.css";
-@import "_box.css";
-@import "_social-icon.css";
-@import "_lists.css";
-@import "_vertical-navigation.css";
+@import "header.css";
+@import "header-navigation.css";
+@import "page.css";
+@import "footer.css";
+@import "box.css";
+@import "social-icon.css";
+@import "lists.css";
+@import "vertical-navigation.css";
 @import "form.css";
