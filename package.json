@@ -11,7 +11,9 @@
     "test:watch": "NODE_ENV=test jest --watchAll",
     "test:coverage": "npm run test -- --coverage --colors",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
@@ -30,9 +32,15 @@
     "yup": "^0.28.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.5.0",
     "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.1.0",
     "babel-plugin-react-remove-properties": "^0.3.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
