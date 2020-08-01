@@ -6,17 +6,16 @@ import Meta from './Meta';
 import Header from './Header';
 import Footer from './Footer';
 
-Router.onRouteChangeStart = () => {
+Router.events.on('routeChangeStart', () => {
   NProgress.start();
-};
-Router.onRouteChangeComplete = () => {
+});
+Router.events.on('routeChangeComplete', () => {
   NProgress.done();
-};
-Router.onRouteChangeError = () => {
+});
+Router.events.on('routeChangeError', () => {
   NProgress.done();
-};
+});
 
-// eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => (
   <>
     <Meta />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = ({ text: string }) => {
   return (
-    <button>
+    <button className="button button--primary">
       {text}
     </button>
   );
