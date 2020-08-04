@@ -1,6 +1,6 @@
 {
     "extends": [
-        "airbnb-typescript",
+        "airbnb",
         "prettier",
         "prettier/react"
     ],
@@ -9,9 +9,7 @@
         "prettier",
         "react-hooks"
     ],
-    "parser": {
-        "project": "./tsconfig.json",
-    },
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 2020
     },

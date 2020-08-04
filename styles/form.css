@@ -11,6 +11,7 @@
 /* |-------------------------------------------------- */
 
 label {
+    font-weight: var(--base--font-weight__bold);
     font-size: var(--base--small__font-size);
     text-transform: uppercase;
 }
