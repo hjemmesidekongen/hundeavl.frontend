@@ -10,7 +10,7 @@ module.exports = {
     production: {
       user: 'mn',
       host: '64.225.99.176',
-      ref: 'origin/master',
+      ref: 'origin/develop',
       repo: 'git@github.com:hjemmesidekongen/hundeavl.frontend.git',
       path: '/var/www/hundeavl.dk/',
       'pre-deploy-local': '',
